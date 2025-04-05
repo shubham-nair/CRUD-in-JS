@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Create New Book</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <header>
+    <h1>Add New Book</h1>
+    <nav><a href="index.html">← Back to List</a></nav>
+  </header>
+
+  <main>
+    <section>
+      <form id="book-form">
+        <label>
+          Title:
+          <input type="text" name="title" required />
+        </label>
+        <label>
+          Author:
+          <input type="text" name="author" required />
+        </label>
+        <label>
+          Publisher:
+          <input type="text" name="publisher" required />
+        </label>
+        <label>
+          Edition:
+          <input type="text" name="edition" required />
+        </label>
+        <label>
+          Pages:
+          <input type="number" name="pages" required min="1" />
+        </label>
+        <button type="submit">Create</button>
+      </form>
+      <p id="message"></p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+  <script>document.addEventListener('DOMContentLoaded', loadCreatePage);</script>
+
+</body>
+</html>

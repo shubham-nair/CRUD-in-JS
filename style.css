@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem;
+    background: #fafafa;
+    color: #333;
+  }
+  
+  header, nav, main, section, article {
+    margin-bottom: 1.5rem;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #0055aa;
+  }
+  
+  form {
+    display: grid;
+    gap: 0.8rem;
+  }
+  
+  input, button {
+    padding: 0.5rem;
+    font-size: 1rem;
+  }
+  
+  button {
+    background-color: #0055aa;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #003f88;
+  }
+  
