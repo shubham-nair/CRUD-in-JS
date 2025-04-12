@@ -1,30 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8"/>
+  <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Create Book</title>
+  <title>Edit Book</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   <header>
-    <h1>Create New Book</h1>
-    <nav><a href="index.html">← Back</a></nav>
+    <h1>Edit Book</h1>
+    <nav><a href="index.html">← Back to List</a></nav>
   </header>
 
   <main>
-    <form id="book-form">
+    <form id="edit-form">
       <label>Title: <input type="text" name="title" required /></label>
       <label>Author: <input type="text" name="author" required /></label>
       <label>Publisher: <input type="text" name="publisher" required /></label>
       <label>Edition: <input type="text" name="edition" required /></label>
       <label>Pages: <input type="number" name="pages" required /></label>
-      <button type="submit">Create</button>
+      <button type="submit">Save</button>
     </form>
-    <p id="message"></p>
   </main>
 
   <script src="script.js"></script>
-  <script>document.addEventListener('DOMContentLoaded', loadCreatePage);</script>
+  <script>document.addEventListener('DOMContentLoaded', loadEditPage);</script>
 </body>
 </html>
